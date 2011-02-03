@@ -5,7 +5,7 @@ require 'rubygems'
 gem "actionpack", '~> 2.3'
 require 'action_controller'
 
-gem "rspec-core", "~> 2.0.0.beta"
+gem "rspec-core", "~> 2.0.0"
 require 'rspec/core'
 require 'rspec/core/formatters/base_text_formatter'
 require 'rspec-rails23'

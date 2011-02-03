@@ -2,14 +2,14 @@ begin
   require 'jeweler' 
   Jeweler::Tasks.new do |s| 
     s.name = "rspec-rails23" 
-    s.summary = "Rspec Rails for 2.3.5"
+    s.summary = "Rspec Rails for 2.3.5+"
     s.email = "rsanheim@gmail.com" 
-    s.homepage = "http://github.com/rsanheim/rspec-rails23" 
-    s.description = "Rails 2.3.5 Extension for Rspec 2"
-    s.authors = ["Rob Sanheim"] 
+    s.homepage = "https://github.com/tehcurtis/rspec-rails23" 
+    s.description = "Rails 2.3.5+ Extension for Rspec 2"
+    s.authors = ["Rob Sanheim", 'Curtis Edmond'] 
     s.files =  FileList["[A-Z]*", "{bin,lib,spec}/**/*"] 
     s.add_dependency "actionpack", '~> 2.3.0'
-    s.add_dependency "rspec", '= 2.0.0.beta.8'
+    s.add_dependency "rspec", '~> 2.0.1'
   end 
   Jeweler::GemcutterTasks.new
 rescue LoadError 
